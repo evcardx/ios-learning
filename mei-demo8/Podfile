@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'mei-demo8' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+  pod 'JSONKit', '~> 1.4'
+
+  # Pods for mei-demo8
+
+  target 'mei-demo8Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'mei-demo8UITests' do
+    # Pods for testing
+  end
+
+end

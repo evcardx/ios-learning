@@ -1,0 +1,6 @@
+framework module Pods_mei_demo8_mei_demo8UITests {
+  umbrella header "Pods-mei-demo8-mei-demo8UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AFE18892388A8A600362271 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE18882388A8A600362271 /* AppDelegate.m */; };
+		5AFE188C2388A8A600362271 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE188B2388A8A600362271 /* ViewController.m */; };
+		5AFE188F2388A8A600362271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFE188D2388A8A600362271 /* Main.storyboard */; };
+		5AFE18912388A8A700362271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFE18902388A8A700362271 /* Assets.xcassets */; };
+		5AFE18942388A8A700362271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFE18922388A8A700362271 /* LaunchScreen.storyboard */; };
+		5AFE18972388A8A700362271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE18962388A8A700362271 /* main.m */; };
+		5AFE18A12388A8A700362271 /* tomcat_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE18A02388A8A700362271 /* tomcat_demoTests.m */; };
+		5AFE18AC2388A8A700362271 /* tomcat_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE18AB2388A8A700362271 /* tomcat_demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AFE189D2388A8A700362271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFE187C2388A8A600362271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFE18832388A8A600362271;
+			remoteInfo = "tomcat-demo";
+		};
+		5AFE18A82388A8A700362271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFE187C2388A8A600362271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFE18832388A8A600362271;
+			remoteInfo = "tomcat-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AFE18842388A8A600362271 /* tomcat-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tomcat-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFE18872388A8A600362271 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AFE18882388A8A600362271 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AFE188A2388A8A600362271 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AFE188B2388A8A600362271 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AFE188E2388A8A600362271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AFE18902388A8A700362271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AFE18932388A8A700362271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AFE18952388A8A700362271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFE18962388A8A700362271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AFE189C2388A8A700362271 /* tomcat-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tomcat-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFE18A02388A8A700362271 /* tomcat_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tomcat_demoTests.m; sourceTree = "<group>"; };
+		5AFE18A22388A8A700362271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFE18A72388A8A700362271 /* tomcat-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tomcat-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFE18AB2388A8A700362271 /* tomcat_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tomcat_demoUITests.m; sourceTree = "<group>"; };
+		5AFE18AD2388A8A700362271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFE18812388A8A600362271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFE18992388A8A700362271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFE18A42388A8A700362271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFE187B2388A8A600362271 = {
+			isa = PBXGroup;
+			children = (
+				5AFE18862388A8A600362271 /* tomcat-demo */,
+				5AFE189F2388A8A700362271 /* tomcat-demoTests */,
+				5AFE18AA2388A8A700362271 /* tomcat-demoUITests */,
+				5AFE18852388A8A600362271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFE18852388A8A600362271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFE18842388A8A600362271 /* tomcat-demo.app */,
+				5AFE189C2388A8A700362271 /* tomcat-demoTests.xctest */,
+				5AFE18A72388A8A700362271 /* tomcat-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFE18862388A8A600362271 /* tomcat-demo */ = {
+			isa = PBXGroup;
+			children = (
+				5AFE18872388A8A600362271 /* AppDelegate.h */,
+				5AFE18882388A8A600362271 /* AppDelegate.m */,
+				5AFE188A2388A8A600362271 /* ViewController.h */,
+				5AFE188B2388A8A600362271 /* ViewController.m */,
+				5AFE188D2388A8A600362271 /* Main.storyboard */,
+				5AFE18902388A8A700362271 /* Assets.xcassets */,
+				5AFE18922388A8A700362271 /* LaunchScreen.storyboard */,
+				5AFE18952388A8A700362271 /* Info.plist */,
+				5AFE18962388A8A700362271 /* main.m */,
+			);
+			path = "tomcat-demo";
+			sourceTree = "<group>";
+		};
+		5AFE189F2388A8A700362271 /* tomcat-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFE18A02388A8A700362271 /* tomcat_demoTests.m */,
+				5AFE18A22388A8A700362271 /* Info.plist */,
+			);
+			path = "tomcat-demoTests";
+			sourceTree = "<group>";
+		};
+		5AFE18AA2388A8A700362271 /* tomcat-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFE18AB2388A8A700362271 /* tomcat_demoUITests.m */,
+				5AFE18AD2388A8A700362271 /* Info.plist */,
+			);
+			path = "tomcat-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFE18832388A8A600362271 /* tomcat-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFE18B02388A8A700362271 /* Build configuration list for PBXNativeTarget "tomcat-demo" */;
+			buildPhases = (
+				5AFE18802388A8A600362271 /* Sources */,
+				5AFE18812388A8A600362271 /* Frameworks */,
+				5AFE18822388A8A600362271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tomcat-demo";
+			productName = "tomcat-demo";
+			productReference = 5AFE18842388A8A600362271 /* tomcat-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AFE189B2388A8A700362271 /* tomcat-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFE18B32388A8A700362271 /* Build configuration list for PBXNativeTarget "tomcat-demoTests" */;
+			buildPhases = (
+				5AFE18982388A8A700362271 /* Sources */,
+				5AFE18992388A8A700362271 /* Frameworks */,
+				5AFE189A2388A8A700362271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFE189E2388A8A700362271 /* PBXTargetDependency */,
+			);
+			name = "tomcat-demoTests";
+			productName = "tomcat-demoTests";
+			productReference = 5AFE189C2388A8A700362271 /* tomcat-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AFE18A62388A8A700362271 /* tomcat-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFE18B62388A8A700362271 /* Build configuration list for PBXNativeTarget "tomcat-demoUITests" */;
+			buildPhases = (
+				5AFE18A32388A8A700362271 /* Sources */,
+				5AFE18A42388A8A700362271 /* Frameworks */,
+				5AFE18A52388A8A700362271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFE18A92388A8A700362271 /* PBXTargetDependency */,
+			);
+			name = "tomcat-demoUITests";
+			productName = "tomcat-demoUITests";
+			productReference = 5AFE18A72388A8A700362271 /* tomcat-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFE187C2388A8A600362271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "徐彦军";
+				TargetAttributes = {
+					5AFE18832388A8A600362271 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5AFE189B2388A8A700362271 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5AFE18832388A8A600362271;
+					};
+					5AFE18A62388A8A700362271 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5AFE18832388A8A600362271;
+					};
+				};
+			};
+			buildConfigurationList = 5AFE187F2388A8A600362271 /* Build configuration list for PBXProject "tomcat-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AFE187B2388A8A600362271;
+			productRefGroup = 5AFE18852388A8A600362271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFE18832388A8A600362271 /* tomcat-demo */,
+				5AFE189B2388A8A700362271 /* tomcat-demoTests */,
+				5AFE18A62388A8A700362271 /* tomcat-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFE18822388A8A600362271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFE18942388A8A700362271 /* LaunchScreen.storyboard in Resources */,
+				5AFE18912388A8A700362271 /* Assets.xcassets in Resources */,
+				5AFE188F2388A8A600362271 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFE189A2388A8A700362271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFE18A52388A8A700362271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFE18802388A8A600362271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFE188C2388A8A600362271 /* ViewController.m in Sources */,
+				5AFE18972388A8A700362271 /* main.m in Sources */,
+				5AFE18892388A8A600362271 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFE18982388A8A700362271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFE18A12388A8A700362271 /* tomcat_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFE18A32388A8A700362271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFE18AC2388A8A700362271 /* tomcat_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFE189E2388A8A700362271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFE18832388A8A600362271 /* tomcat-demo */;
+			targetProxy = 5AFE189D2388A8A700362271 /* PBXContainerItemProxy */;
+		};
+		5AFE18A92388A8A700362271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFE18832388A8A600362271 /* tomcat-demo */;
+			targetProxy = 5AFE18A82388A8A700362271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AFE188D2388A8A600362271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFE188E2388A8A600362271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AFE18922388A8A700362271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFE18932388A8A700362271 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AFE18AE2388A8A700362271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AFE18AF2388A8A700362271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AFE18B12388A8A700362271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBZTHD3YB7;
+				INFOPLIST_FILE = "tomcat-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyan.info.tomcat-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AFE18B22388A8A700362271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBZTHD3YB7;
+				INFOPLIST_FILE = "tomcat-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyan.info.tomcat-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AFE18B42388A8A700362271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBZTHD3YB7;
+				INFOPLIST_FILE = "tomcat-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyan.info.tomcat-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomcat-demo.app/tomcat-demo";
+			};
+			name = Debug;
+		};
+		5AFE18B52388A8A700362271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBZTHD3YB7;
+				INFOPLIST_FILE = "tomcat-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyan.info.tomcat-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomcat-demo.app/tomcat-demo";
+			};
+			name = Release;
+		};
+		5AFE18B72388A8A700362271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBZTHD3YB7;
+				INFOPLIST_FILE = "tomcat-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyan.info.tomcat-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tomcat-demo";
+			};
+			name = Debug;
+		};
+		5AFE18B82388A8A700362271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBZTHD3YB7;
+				INFOPLIST_FILE = "tomcat-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyan.info.tomcat-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tomcat-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFE187F2388A8A600362271 /* Build configuration list for PBXProject "tomcat-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFE18AE2388A8A700362271 /* Debug */,
+				5AFE18AF2388A8A700362271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFE18B02388A8A700362271 /* Build configuration list for PBXNativeTarget "tomcat-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFE18B12388A8A700362271 /* Debug */,
+				5AFE18B22388A8A700362271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFE18B32388A8A700362271 /* Build configuration list for PBXNativeTarget "tomcat-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFE18B42388A8A700362271 /* Debug */,
+				5AFE18B52388A8A700362271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFE18B62388A8A700362271 /* Build configuration list for PBXNativeTarget "tomcat-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFE18B72388A8A700362271 /* Debug */,
+				5AFE18B82388A8A700362271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFE187C2388A8A600362271 /* Project object */;
+}
